@@ -1,0 +1,123 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Small */
+@media (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+}
+
+/* Medium */
+@media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+}
+
+/* Large */
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+body{
+    width: 100%;
+    height: 100vh;
+}
+.container{
+    width: 600px;
+    height: 271px;
+    background-color: #e5dfdf;
+    position: relative;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 17px;
+}
+.container .quote{
+position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    width: 481px;
+    text-align: center;
+    
+}
+.app{
+    width: 100%;
+    height: 100vh;
+} 
+.container button{
+    position: absolute;
+        bottom: 0px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border: none;
+        width: 136px;
+        height: 33px;
+        border-radius: 8px;
+        background-color: #7979ff;
+        color: white;
+        cursor: pointer;
+}
+.top{
+    position: absolute;
+        font-size: 67px;
+        font-weight: 800;
+        color: #7979ff;
+        top: -27px;
+}
+.bottom{
+    position: absolute;
+        font-size: 67px;
+        font-weight: 800;
+        color: #7979ff;
+        bottom: -52px;
+        right: 1px;
+}
+@media (min-width: 480px){
+    .container .quote{
+        width: 384px;
+    }
+    .container{
+        width: 411px;
+        height: 291px;
+    }
+}
+@media (min-width: 375px){
+    .container{
+    width: 254px;
+        height: 384px;
+        background-color: #e5dfdf;
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 17px;
+    }
+    .container .quote{
+        position: absolute;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            left: 50%;
+            width: 244px;
+            text-align: center;
+    }
+}
+
+@media (min-width: 992px){
+    .container{
+        width: 600px;
+            height: 271px;
+            background-color: #e5dfdf;
+            position: relative;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            border-radius: 17px;
+    }
+}
